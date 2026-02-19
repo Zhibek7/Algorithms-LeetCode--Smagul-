@@ -5,7 +5,7 @@ class Solution:
         while left <= right:
             mid = (left + right) // 2
             if nums[mid] == target:
-                return mid  # Элемент найден!
+                return mid  # Элемент найден
             elif nums[mid] < target:
                 left = mid + 1
             else:
