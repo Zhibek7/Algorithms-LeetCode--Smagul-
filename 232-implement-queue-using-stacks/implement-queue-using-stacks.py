@@ -10,7 +10,7 @@ class MyQueue:
     def pop(self) -> int:
         # Убеждаемся, что s2 не пуст
         self.peek()
-        # Извлекаем верхний элемент (это будет первый вошедший элемент)
+        # Извлекаем верхний элемент 
         return self.s2.pop()
 
     def peek(self) -> int:
